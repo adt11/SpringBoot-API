@@ -1,0 +1,14 @@
+endpoint:
+http://localhost:8080/
+
+for Topics
+/topics
+
+for Courses
+/topics/{id}/course
+
+for Actuator
+/actuator/beans
+
+
+java -jar target\product-api-0.0.1-SNAPSHOT.jar
